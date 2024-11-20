@@ -1,0 +1,8 @@
+name: build Project
+on: workflow_dispatch
+jobs:
+    build-App:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Install Dependencies
+              run: npm i
